@@ -1,0 +1,23 @@
+.container-header{
+    height: 80px;
+    border-radius: 0px 0px 0px 50px; 
+    background: #254d71;
+    align-items: center!important;
+}
+
+.container-info-dashboard{
+     padding : 80px!important;
+     padding-top: 50px!important;
+     margin: 0!important;
+} 
+@media screen and (max-width: 767px) {
+    .ant-layout-content{
+      margin-top: 450px;
+    }
+} 
+@media screen and (min-width: 768px) {
+    .ant-layout-content{
+        margin-top: 170px;
+      }
+  }
+  

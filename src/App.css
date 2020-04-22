@@ -1,3 +1,13 @@
- .ant-layout-content{
-    background: #ffffff!important;
+ 
+body{
+    background: #BCE2EC!important;
 }
+.ant-layout-content ,.ant-layout-header,.ant-layout,.ant-layout-footer{ 
+    background: none!important;
+} 
+.ant-layout-header{
+    padding: 0!important;
+    margin: 0!important;
+    align-items: center!important;
+}
+ 

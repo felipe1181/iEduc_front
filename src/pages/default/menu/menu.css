@@ -1,0 +1,22 @@
+.ant-menu{
+    background:none!important;
+    border: 0!important;
+    border: none!important;
+    margin-left: 10px; 
+}
+
+.ant-menu li{
+     border: 0!important;
+}
+
+.ant-menu li:hover{
+    border: 1!important;
+    color: blanchedalmond;
+} 
+.menu-main{
+    background: none!important;
+}
+.content-submenu{
+    border: 0!important;
+    background: #ffff;
+}
