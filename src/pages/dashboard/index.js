@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Row, Col, Layout } from 'antd';
+import { Row, Col, Layout, Divider } from 'antd';
 import { TeamOutlined, SolutionOutlined, WechatOutlined } from '@ant-design/icons';
 import Menu from '../default/menu/menu.js';
 import './index.css';
@@ -72,10 +72,11 @@ function Dashboard() {
                         md={{ span: 8 }}
                         lg={{ span: 8 }}
                         xl={{ span: 5 }}>
-                            <Row>
+                            <Row gutter={5}>
                                 <Col span={24}>
                                     <Holiday days="150"/>
-                                </Col>
+                                </Col> 
+                                <hr></hr>
                                 <Col span={24}>
                                      <Exams />   
                                 </Col>
