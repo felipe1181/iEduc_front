@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import { Card ,Row,Col, List,Button,Progress} from 'antd';
+import { Card ,List,Button,Progress} from 'antd';
 
 import './exams.css';
 
