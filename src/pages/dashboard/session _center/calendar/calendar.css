@@ -1,18 +1,20 @@
-.card-exams{
+.card-calendar{ 
     border-radius: 15px;
     -webkit-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
     -moz-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
     box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
-}
- 
-
-.title-exams{
-    font-size: 18px;
+} 
+.title-calendar{
+    font-size: 25px;
     font-weight: bold;
 }
-.card-exams p:first-child{
-    font-size: 12px;
+.card-calendar p:first-child{
+    font-size: 18px;
 }
-.card-exams button{
-    border-radius: 50px;
+.card-calendar .ant-timeline{
+    height: 350px;
+    max-height: 350px;
+}
+.card-calendar button{
+    border-radius: 50px;   
 }

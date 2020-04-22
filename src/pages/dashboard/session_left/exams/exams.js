@@ -10,7 +10,7 @@ function Exams(props){
     return(
         <>
         <Card className="card-exams">
-            <span>Exames em progresso</span>
+            <span className="title-exams">Exames em progresso</span>
             <p>Seu progresso</p>
             <List
                 dataSource={data.results}
@@ -34,7 +34,7 @@ function Exams(props){
                 )}
             >     
             </List>
-            <Button className="" type="primary" block>Ver todos</Button>
+            <Button  type="primary" block>Ver todos</Button>
         </Card>
     </>    
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Row, Col, Layout, Divider } from 'antd';
+import { Row, Col, Layout } from 'antd';
 import { TeamOutlined, SolutionOutlined, WechatOutlined } from '@ant-design/icons';
 import Menu from '../default/menu/menu.js';
 import './index.css';
@@ -8,6 +8,7 @@ import './index.css';
 import Info from './info/info';
 import Holiday from './session_left/holiday/holiday';
 import Exams from './session_left/exams/exams';
+import Calendar from './session _center/calendar/calendar';
 
 
 function Dashboard() {
@@ -82,14 +83,13 @@ function Dashboard() {
                                 </Col>
                             </Row>
                         </Col>
-                    <Col
-                        style={{background:"green"}}
+                    <Col 
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
                         md={{ span: 8 }}
                         lg={{ span: 8 }}
                         xl={{ span: 8 }}>
-                        session 2
+                            <Calendar/>
                         </Col>
                     <Col
                         style={{background:"blue"}}
