@@ -1,0 +1,29 @@
+.card-holiday{
+    background: #fff!important;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
+    -moz-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
+    box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
+}
+.card-holiday span{
+    margin: 0;
+    padding: 0;
+    font-size: 100px; 
+    font-weight: bold;
+}
+.card-holiday  p{
+    margin: 0;
+    padding: 0;
+    margin-top: -30px;
+    font-size: 17px; 
+    color: #ccc;
+    font-weight: bold;
+}
+
+.card-holiday  img{   
+    width: 50px;
+    height: auto;
+}

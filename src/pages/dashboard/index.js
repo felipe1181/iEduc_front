@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Row, Col, Layout, Divider } from 'antd';
+import { Row, Col, Layout } from 'antd';
 import { TeamOutlined, SolutionOutlined, WechatOutlined } from '@ant-design/icons';
 import Menu from '../default/menu/menu.js';
+import './index.css';
 
 import Info from './info/info';
-import './index.css';
+import Holiday from './session_left/holiday/holiday';
+import Exams from './session_left/exams/exams';
 
 
 function Dashboard() {
@@ -58,17 +60,29 @@ function Dashboard() {
             </Header>
 
             <Content className="content-main-dashboard">
-
-                <Row>
-                    <Col
+                <Row  gutter={{
+                                    xs: 8,
+                                    sm: 16,
+                                    md: 24,
+                                    lg: 32
+                                }} span={24}>
+                    <Col 
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
                         md={{ span: 8 }}
                         lg={{ span: 8 }}
-                        xl={{ span: 8 }}>
-                        session 1
+                        xl={{ span: 5 }}>
+                            <Row>
+                                <Col span={24}>
+                                    <Holiday days="150"/>
+                                </Col>
+                                <Col span={24}>
+                                     <Exams />   
+                                </Col>
+                            </Row>
                         </Col>
                     <Col
+                        style={{background:"green"}}
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
                         md={{ span: 8 }}
@@ -77,11 +91,12 @@ function Dashboard() {
                         session 2
                         </Col>
                     <Col
+                        style={{background:"blue"}}
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
                         md={{ span: 8 }}
                         lg={{ span: 8 }}
-                        xl={{ span: 8 }}>
+                        xl={{ span: 11 }}>
                         session 3
                         </Col>
                 </Row>
