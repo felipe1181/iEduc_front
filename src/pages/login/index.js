@@ -36,11 +36,11 @@ function Login() {
         <Layout className="layout-login">
             <Row className="ant-layout-content">
                 <Col className="login-container-main"
-                    xs={{ span: 22, offset: 1 }}
-                    sm={{ span: 20, offset: 2 }}
-                    md={{ span: 14, offset: 5 }}
-                    lg={{ span: 13, offset: 6 }}
-                    xl={{ span: 13, offset: 6 }}>
+                    xs={{ span: 22}}
+                    sm={{ span: 20}}
+                    md={{ span: 14}}
+                    lg={{ span: 13}}
+                    xl={{ span: 13}}>
                     <Row className="login-container-content">
                         <Col className="login-container-form"
                             xs={{ span: 24 }}

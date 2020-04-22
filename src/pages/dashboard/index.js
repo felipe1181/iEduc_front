@@ -57,7 +57,7 @@ function Dashboard() {
                 </div>
             </Header>
 
-            <Content>
+            <Content className="content-main-dashboard">
 
                 <Row>
                     <Col

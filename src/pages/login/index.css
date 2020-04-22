@@ -1,4 +1,5 @@
 .login-container-main{
+    margin: 0 auto!important;
     margin-top: 80px!important;
     height: 420px!important; 
     background-size: contain;
