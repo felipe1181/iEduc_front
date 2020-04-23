@@ -12,7 +12,7 @@ const options = [
 function Calendar(){
     
     return(
-        <Card className="card-calendar">
+        <Card className="card-calendar default-border-shadow-components">
             <span className="title-calendar">Calendário</span>
             <Row>
                 <Col span={17}><p>7 eventos hoje</p></Col>
