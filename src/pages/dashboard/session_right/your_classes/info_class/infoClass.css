@@ -8,8 +8,8 @@
     height: auto; 
     color:#fff;
     border-radius: 50%;
-    background: rgba(3,10,15,0.51);
-    border: 5px solid rgba(3,10,15,0.25);
+    background: rgba(3,10,15,0.30);
+    border: 5px solid rgba(3,10,15,0.10);
 }
 .title-info-classes span{
     font-size: 15px;

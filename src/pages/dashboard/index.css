@@ -4,24 +4,31 @@
     background: #254d71;
     align-items: center!important;
 }
+.content-main-dashboard{
+   padding: 20px;
+}
 
 .container-info-dashboard{
      padding : 80px!important;
      padding-top: 50px!important;
      margin: 0!important;
-} 
-
-.content-main-dashboard{
-   padding: 20px;
 }
+
 @media screen and (max-width: 767px) {
     .content-main-dashboard{
       margin-top: 450px;
     }
+    .content-main-dashboard .ant-col{
+        margin-top:20px;
+    } 
 } 
 @media screen and (min-width: 768px) {
     .content-main-dashboard{
         margin-top: 140px;
       }
+
+      .content-main-dashboard .ant-col{
+        margin-top:0;
+    } 
   }
   

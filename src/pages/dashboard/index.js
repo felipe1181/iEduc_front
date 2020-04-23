@@ -63,12 +63,7 @@ function Dashboard() {
             </Header>
 
             <Content className="content-main-dashboard">
-                <Row  gutter={{
-                                    xs: 8,
-                                    sm: 16,
-                                    md: 24,
-                                    lg: 32
-                                }} span={24}>
+                <Row  span={24}  gutter={15}>
                     <Col 
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
@@ -85,6 +80,7 @@ function Dashboard() {
                                 </Col>
                             </Row>
                         </Col>
+                         
                     <Col 
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
@@ -93,6 +89,7 @@ function Dashboard() {
                         xl={{ span: 8 }}>
                             <Calendar/>
                         </Col>
+                         
                     <Col 
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
