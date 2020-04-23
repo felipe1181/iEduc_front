@@ -7,8 +7,8 @@
     font-size: 18px;
 }
 .card-calendar .ant-timeline{
-    height: 350px;
-    max-height: 350px;
+    height: 365px;
+     
 }
 .card-calendar button{
     border-radius: 50px;   

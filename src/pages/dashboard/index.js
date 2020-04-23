@@ -20,7 +20,13 @@ function Dashboard() {
             <Header>
                 <div className="container-header" span={24}>
                     <Row>
-                        <Col span={22}>
+                        <Col  className="logo-container-ieduc" span={18} offset={3}>
+                            <center><span>iEduc</span></center>
+                        </Col>
+                        <Col className="menu-container-ieduc" span={3}  >
+                            <Menu />
+                        </Col>
+                        <Col span={24}>
                             <Row span={24} className="container-info-dashboard"
                                 gutter={{
                                     xs: 8,
@@ -53,10 +59,7 @@ function Dashboard() {
                                     <Info ico={<WechatOutlined />} name="Classes" val="250" />
                                 </Col>
                             </Row>
-                        </Col>
-                        <Col className="menu-container-ieduc" span={2}>
-                            <Menu />
-                        </Col>
+                        </Col>                     
                     </Row>
 
                 </div>
@@ -101,7 +104,9 @@ function Dashboard() {
                                     <Classes/>
                                 </Col> 
                                 <hr></hr>
-                                <Col span={24}>
+                                <Col  md={{ span: 0 }} 
+                                    xl={{ span: 24 }}
+                                >
                                     <Estatistics/>  
                                 </Col>
                             </Row> 

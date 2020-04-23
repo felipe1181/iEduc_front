@@ -12,16 +12,24 @@ function Classes(){
                 <Col className="title-classe-card" span={24}>
                     <span>Suas Classes</span> 
                 </Col>
-                <Col span={6}>
+                <Col  md={{ span: 12 }} 
+                      xl={{ span: 6 }}
+                >
                     <InfoClass ico={<SmileFilled />} color="#63d1b4" name="Classe 1A"/>
                 </Col>
-                <Col span={6}>
+                <Col  md={{ span: 12 }} 
+                      xl={{ span: 6 }}
+                >
                     <InfoClass ico={<AndroidFilled />} color="#feb4a9" name="Classe de android"/>
                 </Col>
-                <Col span={6}>
+                <Col  md={{ span: 12 }} 
+                      xl={{ span: 6 }}
+                >
                 <InfoClass ico={<RocketFilled />} color="#254d71" name="Primeiro Ano"/>
                 </Col>
-                <Col span={6}>
+                <Col  md={{ span: 12 }} 
+                      xl={{ span: 6 }}
+                >
                     <InfoClass ico={<ShoppingFilled />} color="#63d1b4" name="Segundo Ano"/>
                 </Col>
             </Row>

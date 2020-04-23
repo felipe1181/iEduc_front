@@ -1,22 +1,30 @@
 .container-header{
-    height: 80px;
-    border-radius: 0px 0px 0px 50px; 
-    background: #254d71;
-    align-items: center!important;
+  height: 80px;
+  border-radius: 0px 0px 0px 50px; 
+  background: #254d71;
+  align-items: center!important;
 }
 .content-main-dashboard{
-   padding: 20px;
+  padding: 20px;
 }
-
+.logo-container-ieduc span{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;       
+  color: #fff; 
+}
 .container-info-dashboard{
-     padding : 80px!important;
-     padding-top: 50px!important;
+     padding : 50px!important;
+     padding-top: 0px!important;
      margin: 0!important;
+}
+.menu-container-ieduc{
+  border-radius: 20px!important;
 }
 
 @media screen and (max-width: 767px) {
     .content-main-dashboard{
-      margin-top: 450px;
+      margin-top: 340px;
     }
     .content-main-dashboard .ant-col{
         margin-top:20px;
@@ -24,11 +32,11 @@
 } 
 @media screen and (min-width: 768px) {
     .content-main-dashboard{
-        margin-top: 140px;
+        margin-top: 120px;
       }
 
       .content-main-dashboard .ant-col{
         margin-top:0;
     } 
-  }
+ }
   
