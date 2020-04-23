@@ -1,0 +1,19 @@
+.card-info-classes{
+    border-radius: 15px;
+    padding: 10px;
+    height: 140px;
+} 
+.icon-info-classes span svg{ 
+    width: 50px!important;
+    height: auto; 
+    color:#fff;
+    border-radius: 50%;
+    background: rgba(3,10,15,0.51);
+    border: 5px solid rgba(3,10,15,0.25);
+}
+.title-info-classes span{
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    
+}

@@ -26,8 +26,10 @@ function Login() {
     }
 
     const validateMessages = {
-        required: '${name} precisa ser preenchido!',
+            // eslint-disable-next-line no-template-curly-in-string
+        required: "${name} precisa ser preenchido!",
         types: {
+            // eslint-disable-next-line no-template-curly-in-string
             email: '${name} não é válido!',
         },
     }

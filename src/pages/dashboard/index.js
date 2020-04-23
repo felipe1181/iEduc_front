@@ -9,6 +9,8 @@ import Info from './info/info';
 import Holiday from './session_left/holiday/holiday';
 import Exams from './session_left/exams/exams';
 import Calendar from './session _center/calendar/calendar';
+import Estatistics from './session_right/estatistics/estatistics';
+import Classes from './session_right/your_classes/classes';
 
 
 function Dashboard() {
@@ -91,14 +93,21 @@ function Dashboard() {
                         xl={{ span: 8 }}>
                             <Calendar/>
                         </Col>
-                    <Col
-                        style={{background:"blue"}}
+                    <Col 
                         xs={{ span: 24 }}
                         sm={{ span: 24 }}
                         md={{ span: 8 }}
                         lg={{ span: 8 }}
                         xl={{ span: 11 }}>
-                        session 3
+                               <Row gutter={5}>
+                                <Col span={24}>
+                                    <Classes/>
+                                </Col> 
+                                <hr></hr>
+                                <Col span={24}>
+                                    <Estatistics/>  
+                                </Col>
+                            </Row> 
                         </Col>
                 </Row>
             </Content>

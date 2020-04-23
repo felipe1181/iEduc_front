@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Menu } from 'antd';
-import { MenuUnfoldOutlined } from '@ant-design/icons';
+import { Menu } from 'antd'; 
 import './menu.css';
 
 const { SubMenu } = Menu;
