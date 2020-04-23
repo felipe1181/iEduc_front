@@ -1,11 +1,3 @@
-.card-exams{
-    border-radius: 15px;
-    -webkit-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
-    -moz-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
-    box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
-}
- 
-
 .title-exams{
     font-size: 18px;
     font-weight: bold;

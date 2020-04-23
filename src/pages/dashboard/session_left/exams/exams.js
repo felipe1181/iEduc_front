@@ -9,7 +9,7 @@ const data={"results":[{"exam":"Matemática","progress":"85.5"},{"exam":"Ciênci
 function Exams(props){
     return(
         <>
-        <Card className="card-exams">
+        <Card className="card-exams default-border-shadow-components">
             <span className="title-exams">Exames em progresso</span>
             <p>Seu progresso</p>
             <List
