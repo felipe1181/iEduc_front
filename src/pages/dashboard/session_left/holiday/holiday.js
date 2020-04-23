@@ -10,7 +10,7 @@ import IconLikeBoss from '../../../../assets/icons/icon_like_boss.png';
 function Holiday(props){
     return(
         <>
-            <Card className="card-holiday">
+            <Card className="card-holiday default-border-shadow-components">
                 <Row>
                     <Col span={20}>
                        <span>{props.days}</span>
