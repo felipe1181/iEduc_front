@@ -24,9 +24,9 @@ function Dashboard() {
                             <Row span={24} className="container-info-dashboard"
                                 gutter={{
                                     xs: 8,
-                                    sm: 16,
-                                    md: 24,
-                                    lg: 32
+                                    sm: 10,
+                                    md: 15,
+                                    lg: 15
                                 }}>
                                 <Col
                                     xs={{ span: 24 }}

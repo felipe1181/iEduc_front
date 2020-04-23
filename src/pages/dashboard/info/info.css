@@ -1,10 +1,6 @@
 .card-info-dashboard{ 
-    height: 150px;
-    font-size: 160%;
-    border-radius: 5px;
-    -webkit-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
-    -moz-box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
-    box-shadow: 10px 10px 25px -10px rgba(37,77,113,0.45);
+    height: 120px;
+    font-size: 160%; 
 }
 .car-info-text, .car-info-val{
     display: flex;
@@ -12,9 +8,13 @@
     align-items: center;
 }
 .car-info-text{
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc; 
+    height: 100%;
 } 
-.car-info-val > p{
+.car-info-text p{
+   margin:0;
+} 
+.car-info-val p{
     font-size: 190%;
-    margin-top: 10%;
+    margin-top: 5px; 
 }

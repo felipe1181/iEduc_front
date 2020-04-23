@@ -6,13 +6,13 @@ import './info.css';
 function Info(props) {
     return (
         <>
-            <Card span={24} className="card-info-dashboard">
+            <Card span={24} className="card-info-dashboard default-border-shadow-components">
                 <Row>
-                    <Col className="car-info-text" span={10}>
+                    <Col className="car-info-text" span={12}>
                         <p>{props.ico}</p>
                         <p>{props.name}</p>
                     </Col>
-                    <Col className="car-info-val" span={14}>
+                    <Col className="car-info-val" span={12}>
                         <p>{props.val}</p>
                     </Col>
                 </Row>
