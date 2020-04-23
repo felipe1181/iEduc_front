@@ -1,50 +1,37 @@
 import React from 'react';
-import { Row, Col } from 'antd';
-import {
-    BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
-  } from 'recharts';
-  const data = [
-    {
-      name: 'Page A', uv: 4000, pv: 2400,
-    },
-    {
-      name: 'Page B', uv: 3000, pv: 1398,
-    },
-    {
-      name: 'Page C', uv: 2000, pv: 9800,
-    },
-    {
-      name: 'Page D', uv: 2780, pv: 3908,
-    },
-    {
-      name: 'Page E', uv: 1890, pv: 4800, 
-    },
-    {
-      name: 'Page F', uv: 2390, pv: 3800, 
-    },
-    {
-      name: 'Page G', uv: 3490, pv: 4300,  
-    },
-  ];
+import './estatistics.css';
+import { Row, Col,Button } from 'antd';
+
+import  ChartBar from '../../../default/chart/chart_bar/chartBar';
+
+const data = [
+    {name: 'Classe 1A', Aprovados: 29, Reprovados: 6,},
+    {name: 'Classe Android', Aprovados: 15, Reprovados: 25,},
+    {name: 'Primeiro Ano', Aprovados: 38, Reprovados: 2,},
+    {name: 'Segundo Ano', Aprovados: 25, Reprovados: 5,}
+];
+
+const datakey = [
+  {name: 'Aprovados', color: '#8884d8',},
+  {name: 'Reprovados', color: '#ED7070',}
+];
+
 function Estatistics() {
      
     return (
-        <BarChart
-        width={500}
-        height={300}
-        data={data}
-        margin={{
-          top: 5, right: 30, left: 20, bottom: 5,
-        }}
-      >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        <Bar dataKey="pv" fill="#8884d8" />
-        <Bar dataKey="uv" fill="#82ca9d" />
-      </BarChart>
+      <>
+        <Row className="card-estatistics default-border-shadow-components">
+            <Col className="title-card-statistics" span={24}>
+              <span>Estatísticas</span>
+            </Col>  
+          <Col span={24}>
+            <ChartBar data={data} datakey={datakey}/>
+          </Col>  
+          <Button type="primary" block>Ver todos</Button>
+        </Row>      
+        
+      </>
+     
     );
 }
 

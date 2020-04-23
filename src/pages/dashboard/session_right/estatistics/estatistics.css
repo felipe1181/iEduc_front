@@ -1,0 +1,11 @@
+.card-estatistics{
+    padding: 20px;
+    background: #fff;
+}
+.title-card-statistics span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-estatistics button{
+    border-radius: 20px;
+}
